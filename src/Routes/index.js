@@ -6,4 +6,7 @@ const routes = Router()
 const usersRoutes = require('./Users.routes')
 routes.use('/users', usersRoutes)
 
+const notesRoutes = require('./Notes.routes')
+routes.use('/notes', notesRoutes)
+
 module.exports = routes
